@@ -1,0 +1,51 @@
+body{
+    background-color: brown;
+}
+
+
+.header{
+    margin:20px auto;
+    text-align: center;
+}
+
+.header h1{
+   padding: 10px 0;
+}
+
+.icon{
+    background-color:red ;
+    margin: 30px auto;
+}
+
+.fa{
+    margin: 5px 10px;
+    font-size: 25x !important;
+    cursor: pointer;
+    color:#fff ;
+}
+.fa:hover{
+    color: black;
+    transition: 0.4s;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#column1,#column2,#column3,#column4{
+    width: 25%;
+
+}
+
+img{
+    width: 98%;
+
+padding: 1%;
+}
+
+.img{
+    background-color: white;
+    width: 320px;
+    height: 370px;
+}
